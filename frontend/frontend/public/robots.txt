@@ -1,0 +1,23 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow private routes
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /api/
+Disallow: /payment/
+
+# Allow public pages
+Allow: /
+Allow: /login
+Allow: /services
+Allow: /therapists
+Allow: /about
+Allow: /contact
+
+# Sitemap
+Sitemap: https://broheal.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
